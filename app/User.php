@@ -4,8 +4,10 @@ namespace App;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
-class User extends Authenticatable
-{
+class User extends Authenticatable {
+
+    use UserRelations;
+
     /**
      * The attributes that are mass assignable.
      *
@@ -23,4 +25,17 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+}
+
+trait UserRelations {
+
+    function ServiceProvider() {
+        return $this->hasOne('App\ServiceProvider');
+    }
+
+    public function location() {
+        return $this->belongsTo('App\Models\Location\Meta');
+    }
+
 }
