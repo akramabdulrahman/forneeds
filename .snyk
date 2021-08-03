@@ -1,0 +1,78 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.21.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - laravel-elixir-ng-templates > laravel-elixir > npm > request > hawk > hoek:
+        patched: '2021-08-03T23:24:41.147Z'
+    - laravel-elixir-ng-templates > laravel-elixir > npm > request > hawk > boom > hoek:
+        patched: '2021-08-03T23:24:41.147Z'
+    - laravel-elixir-ng-templates > laravel-elixir > npm > request > hawk > sntp > hoek:
+        patched: '2021-08-03T23:24:41.147Z'
+    - laravel-elixir-ng-templates > laravel-elixir > gulp-less > less > request > hawk > hoek:
+        patched: '2021-08-03T23:24:41.147Z'
+    - laravel-elixir-ng-templates > laravel-elixir > npm > node-gyp > request > hawk > hoek:
+        patched: '2021-08-03T23:24:41.147Z'
+    - laravel-elixir-ng-templates > laravel-elixir > npm > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-08-03T23:24:41.147Z'
+    - laravel-elixir-ng-templates > laravel-elixir > gulp-less > less > request > hawk > boom > hoek:
+        patched: '2021-08-03T23:24:41.147Z'
+    - laravel-elixir-ng-templates > laravel-elixir > npm > node-gyp > request > hawk > boom > hoek:
+        patched: '2021-08-03T23:24:41.147Z'
+    - laravel-elixir-ng-templates > laravel-elixir > gulp-less > less > request > hawk > sntp > hoek:
+        patched: '2021-08-03T23:24:41.147Z'
+    - laravel-elixir-ng-templates > laravel-elixir > npm > node-gyp > request > hawk > sntp > hoek:
+        patched: '2021-08-03T23:24:41.147Z'
+    - laravel-elixir-ng-templates > laravel-elixir > gulp-less > less > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-08-03T23:24:41.147Z'
+    - laravel-elixir-ng-templates > laravel-elixir > npm > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-08-03T23:24:41.147Z'
+  'npm:lodash:20180130':
+    - laravel-elixir-ng-templates > laravel-elixir > babelify > babel-core > lodash:
+        patched: '2021-08-03T23:24:41.147Z'
+    - laravel-elixir-ng-templates > laravel-elixir > gulp-babel > babel-core > lodash:
+        patched: '2021-08-03T23:24:41.147Z'
+    - laravel-elixir-ng-templates > laravel-elixir > babelify > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2021-08-03T23:24:41.147Z'
+    - laravel-elixir-ng-templates > laravel-elixir > gulp-babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2021-08-03T23:24:41.147Z'
+  'npm:minimatch:20160620':
+    - laravel-elixir-ng-templates > laravel-elixir > babelify > babel-core > minimatch:
+        patched: '2021-08-03T23:24:41.147Z'
+    - laravel-elixir-ng-templates > laravel-elixir > gulp-babel > babel-core > minimatch:
+        patched: '2021-08-03T23:24:41.147Z'
+    - laravel-elixir-ng-templates > laravel-elixir > browserify > glob > minimatch:
+        patched: '2021-08-03T23:24:41.147Z'
+    - laravel-elixir-ng-templates > laravel-elixir > del > globby > glob > minimatch:
+        patched: '2021-08-03T23:24:41.147Z'
+    - laravel-elixir-ng-templates > laravel-elixir > gulp-ruby-sass > vinyl-fs > glob-stream > minimatch:
+        patched: '2021-08-03T23:24:41.147Z'
+    - laravel-elixir-ng-templates > laravel-elixir > gulp-ruby-sass > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2021-08-03T23:24:41.147Z'
+    - laravel-elixir-ng-templates > laravel-elixir > gulp-phpunit > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2021-08-03T23:24:41.147Z'
+    - laravel-elixir-ng-templates > laravel-elixir > gulp-phpunit > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2021-08-03T23:24:41.147Z'
+    - laravel-elixir-ng-templates > laravel-elixir > gulp-filter > multimatch > minimatch:
+        patched: '2021-08-03T23:24:41.147Z'
+    - laravel-elixir-ng-templates > laravel-elixir > gulp-load-plugins > findup-sync > glob > minimatch:
+        patched: '2021-08-03T23:24:41.147Z'
+    - laravel-elixir-ng-templates > laravel-elixir > gulp-if > gulp-match > minimatch:
+        patched: '2021-08-03T23:24:41.147Z'
+    - laravel-elixir-ng-templates > laravel-elixir > gulp-load-plugins > multimatch > minimatch:
+        patched: '2021-08-03T23:24:41.147Z'
+    - laravel-elixir-ng-templates > laravel-elixir > gulp-ruby-sass > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2021-08-03T23:24:41.147Z'
+    - laravel-elixir-ng-templates > laravel-elixir > gulp-ruby-sass > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2021-08-03T23:24:41.147Z'
+    - laravel-elixir-ng-templates > laravel-elixir > gulp-phpunit > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2021-08-03T23:24:41.147Z'
+    - laravel-elixir-ng-templates > laravel-elixir > gulp-phpunit > gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2021-08-03T23:24:41.147Z'
+  'npm:semver:20150403':
+    - laravel-elixir-ng-templates > laravel-elixir > gulp-notify > node-notifier > semver:
+        patched: '2021-08-03T23:24:41.147Z'
+  'npm:tunnel-agent:20170305':
+    - laravel-elixir-ng-templates > laravel-elixir > npm > request > tunnel-agent:
+        patched: '2021-08-03T23:24:41.147Z'
