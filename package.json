@@ -2,7 +2,9 @@
   "private": true,
   "scripts": {
     "prod": "gulp --production",
-    "dev": "gulp watch"
+    "dev": "gulp watch",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
@@ -10,6 +12,8 @@
     "bootstrap-sass": "^3.0.0"
   },
   "dependencies": {
-    "laravel-elixir-ng-templates": "^0.1.2"
-  }
+    "laravel-elixir-ng-templates": "^0.1.2",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
